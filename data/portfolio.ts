@@ -2,7 +2,7 @@ export const portfolioData = {
   profile: {
     name: "Nirbhay Hiwse",
     username: "@nirbhayhiwse",
-    bio: "From Bhopal, India — balancing academics with hands-on builds and leading teams to ship intuitive products.",
+    bio: "I believe every line of code tells a story—pairing clean architecture with creative design to ship purposeful products.",
     avatar: "https://avatars.githubusercontent.com/u/149897613?v=4",
     email: "nirbhayhiwse37@gmail.com",
     resumeUrl: "https://nirbhayhiwse.vercel.app/resume.pdf",
@@ -59,7 +59,7 @@ export const portfolioData = {
       imageUrl:
         "https://github-readme-stats.vercel.app/api/pin/?username=Nir-Bhay&repo=High-Flyers&theme=tokyonight",
       githubUrl: "https://github.com/Nir-Bhay/High-Flyers",
-      previewUrl: "https://github.com/Nir-Bhay/High-Flyers",
+      previewUrl: "https://high-flyers.vercel.app",
     },
     {
       id: 4,

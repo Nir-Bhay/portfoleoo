@@ -38,7 +38,8 @@ export function ProfileHeader() {
         <Highlight>B.Tech CSE @ Sage University</Highlight> • leading teams to
         ship intuitive products.
         <br className="hidden sm:block" />
-        {bio} Guided by <Highlight>clean code</Highlight> and{" "}
+        <span className="block sm:inline">{bio}</span>{" "}
+        Guided by <Highlight>clean code</Highlight> and{" "}
         <Highlight>creative design</Highlight>.
       </p>
 
