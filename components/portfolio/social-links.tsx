@@ -19,10 +19,11 @@ const iconComponents: Record<string, IconSvgElement> = {
 
 export function SocialLinks() {
   const links = portfolioData.socialLinks;
+  const resumeUrl = portfolioData.profile.resumeUrl || "#";
 
   return (
     <div className="flex gap-1 items-center">
-      <Link href={""}>
+      <Link href={resumeUrl} target="_blank">
         <Button variant={"default"} size={"lg"} className="font-semibold cursor-pointer">
           resume
         </Button>
