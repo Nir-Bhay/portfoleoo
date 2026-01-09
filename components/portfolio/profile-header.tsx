@@ -5,7 +5,7 @@ import Highlight from "../highlight";
 import { SocialLinks } from "./social-links";
 
 export function ProfileHeader() {
-  const { name, username, avatar, bio } = portfolioData.profile;
+  const { name, username, avatar } = portfolioData.profile;
 
   return (
     <div>
@@ -38,9 +38,8 @@ export function ProfileHeader() {
         <Highlight>B.Tech CSE @ Sage University</Highlight> • leading teams to
         ship intuitive products.
         <br className="hidden sm:block" />
-        <span className="block sm:inline">{bio}</span>{" "}
-        Guided by <Highlight>clean code</Highlight> and{" "}
-        <Highlight>creative design</Highlight>.
+        I believe every line of code tells a story — pairing clean architecture
+        with <Highlight>creative design</Highlight>.
       </p>
 
       <SocialLinks />

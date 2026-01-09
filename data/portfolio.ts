@@ -1,3 +1,6 @@
+const githubPin = (repo: string) =>
+  `https://github-readme-stats.vercel.app/api/pin/?username=Nir-Bhay&repo=${repo}&theme=tokyonight`;
+
 export const portfolioData = {
   profile: {
     name: "Nirbhay Hiwse",
@@ -36,8 +39,7 @@ export const portfolioData = {
       name: "SeatWise SaaS",
       description:
         "Enterprise exam management platform with automated seating, PDF exports, and admin controls.",
-      imageUrl:
-        "https://github-readme-stats.vercel.app/api/pin/?username=Nir-Bhay&repo=SeatWise-SaaS&theme=tokyonight",
+      imageUrl: githubPin("SeatWise-SaaS"),
       githubUrl: "https://github.com/Nir-Bhay/SeatWise-SaaS",
       previewUrl: "https://seatwise-saas.vercel.app",
     },
@@ -46,8 +48,7 @@ export const portfolioData = {
       name: "GrihGO Food Delivery",
       description:
         "Regional food delivery platform featuring city voting, zero hidden charges, and real-time menus.",
-      imageUrl:
-        "https://github-readme-stats.vercel.app/api/pin/?username=Nir-Bhay&repo=Grihgo&theme=tokyonight",
+      imageUrl: githubPin("Grihgo"),
       githubUrl: "https://github.com/Nir-Bhay/Grihgo",
       previewUrl: "https://grihgo.vercel.app",
     },
@@ -56,8 +57,7 @@ export const portfolioData = {
       name: "High-Flyers EdTech",
       description:
         "UPSC/MPPSC/SSC prep platform with AI assistance and structured study paths.",
-      imageUrl:
-        "https://github-readme-stats.vercel.app/api/pin/?username=Nir-Bhay&repo=High-Flyers&theme=tokyonight",
+      imageUrl: githubPin("High-Flyers"),
       githubUrl: "https://github.com/Nir-Bhay/High-Flyers",
       previewUrl: "https://high-flyers.vercel.app",
     },
@@ -66,8 +66,7 @@ export const portfolioData = {
       name: "3D Personal Portfolio",
       description:
         "Interactive 3D portfolio experience showcasing projects with Three.js visuals.",
-      imageUrl:
-        "https://github-readme-stats.vercel.app/api/pin/?username=Nir-Bhay&repo=Nirbhay-Hiwse-Personal-Portfolio&theme=tokyonight",
+      imageUrl: githubPin("Nirbhay-Hiwse-Personal-Portfolio"),
       githubUrl: "https://github.com/Nir-Bhay/Nirbhay-Hiwse-Personal-Portfolio",
       previewUrl: "https://nirbhay-phi.vercel.app",
     },
