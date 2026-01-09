@@ -30,12 +30,16 @@ export function ProfileHeader() {
       </div>
 
       <p className="text-base text-muted-foreground mb-6">
-        a <Highlight>full-stack web developer</Highlight> and{" "}
-        <Highlight>oss contributor</Highlight>.{" "}
+        <Highlight>Full-stack developer</Highlight> crafting{" "}
+        <Highlight>SaaS</Highlight>,{" "}
+        <Highlight>mobile</Highlight>, and{" "}
+        <Highlight>3D experiences</Highlight>.
         <br className="hidden sm:block" />
-        yeah, i vibe code but responsibly — learn{" "}
-        <Highlight>deeply first</Highlight>, then{" "}
-        <Highlight>build with intuition</Highlight>.
+        <Highlight>B.Tech CSE @ Sage University</Highlight> • leading teams to
+        ship intuitive products.
+        <br className="hidden sm:block" />
+        I believe every line of code tells a story — pairing clean architecture
+        with <Highlight>creative design</Highlight>.
       </p>
 
       <SocialLinks />

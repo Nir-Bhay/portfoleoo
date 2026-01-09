@@ -11,7 +11,7 @@ const RedHatMono = Red_Hat_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Surendra Manjhi | @manjhss",
+  title: "Nirbhay Hiwse | @nirbhayhiwse",
   description: portfolioData.profile.bio,
 };
 

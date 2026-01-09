@@ -1,74 +1,74 @@
+const githubPin = (repo: string) =>
+  `https://github-readme-stats.vercel.app/api/pin/?username=Nir-Bhay&repo=${repo}&theme=tokyonight`;
+
 export const portfolioData = {
   profile: {
-    name: "Surendra Manjhi",
-    username: "@manjhss",
-    bio: "a full-stack web developer and curious learner. i vibe code responsibly — learn deeply first, then build with intuition.",
-    avatar: "profile_pic.png",
-    email: "manjhisurendra08@gmail.com",
+    name: "Nirbhay Hiwse",
+    username: "@nirbhayhiwse",
+    bio: "I believe every line of code tells a story—pairing clean architecture with creative design to ship purposeful products.",
+    avatar: "https://avatars.githubusercontent.com/u/149897613?v=4",
+    email: "nirbhayhiwse37@gmail.com",
+    resumeUrl: "https://nirbhayhiwse.vercel.app/resume.pdf",
   },
   socialLinks: [
-    { platform: "github", url: "https://github.com/manjhss" },
-    { platform: "linkedin", url: "https://linkedin.com/in/manjhss" },
-    { platform: "twitter", url: "https://x.com/manjhss" },
-    { platform: "email", url: "mailto:manjhisurendra08@gmail.com" },
+    { platform: "github", url: "https://github.com/Nir-Bhay" },
+    { platform: "linkedin", url: "https://linkedin.com/in/nirbhayhiwse" },
+    { platform: "twitter", url: "https://x.com/nirbhayhiwse" },
+    { platform: "email", url: "mailto:nirbhayhiwse37@gmail.com" },
   ],
   proofOfWorks: [
     {
       id: 1,
-      text: "feat(i18n): add German translations for the contact-facing pages",
-      url: "https://github.com/useplunk/plunk/pull/249",
+      text: "SeatWise — automated exam seat allocation SaaS for universities",
+      url: "https://github.com/Nir-Bhay/SeatWise-SaaS",
     },
     {
       id: 2,
-      text: "Added GameCard component",
-      url: "https://github.com/Lohit-pro/FakeStake/commit/9ee6200157ff5f26d168a2b45c8edaf69a40509b",
+      text: "High-Flyers — AI-powered learning platform for UPSC/MPPSC/SSC",
+      url: "https://github.com/Nir-Bhay/High-Flyers",
     },
     {
       id: 3,
-      text: "Break up Landing Page components into sub-components",
-      url: "https://github.com/wasp-lang/open-saas/pull/214",
+      text: "Chess — real-time multiplayer mobile app built with Expo/React Native",
+      url: "https://github.com/Nir-Bhay/chess",
     },
   ],
   projects: [
     {
       id: 1,
-      name: "my memories",
+      name: "SeatWise SaaS",
       description:
-        "lorem ipsum dolor sit amet consectetur adipisicing elit. voluptatem sint debitis soluta, reprehenderit unde animi aperiam reiciendis corporis dolorum accusantium eveniet a hic neque",
-      imageUrl:
-        "https://www.amarn.me/_next/image?url=%2Fimages%2Fchamaac.png&w=1920&q=75",
-      githubUrl: "https://github.com/manjhss/my-memories",
-      previewUrl: "https://my-memories-5zx7.vercel.app",
+        "Enterprise exam management platform with automated seating, PDF exports, and admin controls.",
+      imageUrl: githubPin("SeatWise-SaaS"),
+      githubUrl: "https://github.com/Nir-Bhay/SeatWise-SaaS",
+      previewUrl: "https://seatwise-saas.vercel.app",
     },
     {
       id: 2,
-      name: "framer motion variants",
+      name: "GrihGO Food Delivery",
       description:
-        "lorem ipsum dolor sit amet consectetur adipisicing elit. voluptatem sint debitis soluta, reprehenderit unde animi aperiam reiciendis corporis dolorum accusantium eveniet a hic neque",
-      imageUrl:
-        "https://www.amarn.me/_next/image?url=%2Fimages%2Fside.png&w=1920&q=75",
-      githubUrl: "https://github.com/manjhss/framer-motion-variants",
-      previewUrl: "https://fmv-web.vercel.app",
+        "Regional food delivery platform featuring city voting, zero hidden charges, and real-time menus.",
+      imageUrl: githubPin("Grihgo"),
+      githubUrl: "https://github.com/Nir-Bhay/Grihgo",
+      previewUrl: "https://grihgo.vercel.app",
     },
     {
       id: 3,
-      name: "be my valentine",
+      name: "High-Flyers EdTech",
       description:
-        "lorem ipsum dolor sit amet consectetur adipisicing elit. voluptatem sint debitis soluta, reprehenderit unde animi aperiam reiciendis corporis dolorum accusantium eveniet a hic neque",
-      imageUrl:
-        "https://www.amarn.me/_next/image?url=%2Fimages%2Fside.png&w=1920&q=75",
-      githubUrl: "https://github.com/manjhss/be-my-valentine",
-      previewUrl: "https://manjhss.github.io/be-my-valentine/",
+        "UPSC/MPPSC/SSC prep platform with AI assistance and structured study paths.",
+      imageUrl: githubPin("High-Flyers"),
+      githubUrl: "https://github.com/Nir-Bhay/High-Flyers",
+      previewUrl: "https://high-flyers.vercel.app",
     },
     {
       id: 4,
-      name: "dogpedia",
+      name: "3D Personal Portfolio",
       description:
-        "lorem ipsum dolor sit amet consectetur adipisicing elit. voluptatem sint debitis soluta, reprehenderit unde animi aperiam reiciendis corporis dolorum accusantium eveniet a hic neque",
-      imageUrl:
-        "https://www.amarn.me/_next/image?url=%2Fimages%2Fside.png&w=1920&q=75",
-      githubUrl: "https://github.com/manjhss/Dogpedia",
-      previewUrl: "https://dogpedia-bay.vercel.app",
+        "Interactive 3D portfolio experience showcasing projects with Three.js visuals.",
+      imageUrl: githubPin("Nirbhay-Hiwse-Personal-Portfolio"),
+      githubUrl: "https://github.com/Nir-Bhay/Nirbhay-Hiwse-Personal-Portfolio",
+      previewUrl: "https://nirbhay-phi.vercel.app",
     },
   ],
 };
