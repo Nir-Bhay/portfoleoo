@@ -30,13 +30,16 @@ export function ProfileHeader() {
       </div>
 
       <p className="text-base text-muted-foreground mb-6">
-        <Highlight>Full-stack developer</Highlight> and{" "}
-        <Highlight>B.Tech CSE @ Sage University</Highlight>.
-        <br className="hidden sm:block" />
-        {bio} Focused on{" "}
+        <Highlight>Full-stack developer</Highlight> crafting{" "}
         <Highlight>SaaS</Highlight>,{" "}
         <Highlight>mobile</Highlight>, and{" "}
         <Highlight>3D experiences</Highlight>.
+        <br className="hidden sm:block" />
+        <Highlight>B.Tech CSE @ Sage University</Highlight> • leading teams to
+        ship intuitive products.
+        <br className="hidden sm:block" />
+        {bio} Guided by <Highlight>clean code</Highlight> and{" "}
+        <Highlight>creative design</Highlight>.
       </p>
 
       <SocialLinks />

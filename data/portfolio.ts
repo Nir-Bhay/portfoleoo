@@ -2,7 +2,7 @@ export const portfolioData = {
   profile: {
     name: "Nirbhay Hiwse",
     username: "@nirbhayhiwse",
-    bio: "Full-stack developer & B.Tech CSE student crafting SaaS, mobile, and 3D experiences with clean, thoughtful code.",
+    bio: "From Bhopal, India — balancing academics with hands-on builds and leading teams to ship intuitive products.",
     avatar: "https://avatars.githubusercontent.com/u/149897613?v=4",
     email: "nirbhayhiwse37@gmail.com",
     resumeUrl: "https://nirbhayhiwse.vercel.app/resume.pdf",
